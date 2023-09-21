@@ -1,0 +1,28 @@
+{
+  "name": "express-locales",
+  "version": "2.0.0",
+  "description": "Simple express middleware to determine language of request and populate it with locales.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveGobe/express-locales.git"
+  },
+  "keywords": [
+    "express",
+    "locale",
+    "i18n"
+  ],
+  "author": "LiveGobe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiveGobe/express-locales/issues"
+  },
+  "homepage": "https://github.com/LiveGobe/express-locales#readme",
+  "dependencies": {
+    "accept-language-parser": "^1.5.0",
+    "cookie": "^0.5.0"
+  }
+}
